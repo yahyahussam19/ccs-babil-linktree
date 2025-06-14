@@ -8,57 +8,76 @@
   <style>
     body {
       margin: 0;
-      font-family: 'Arial', sans-serif;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
       background-color: #007BFF;
-      color: white;
+      color: #fff;
       text-align: center;
     }
     .header img {
-      width: 100px;
-      margin-top: 20px;
+      width: 120px;
+      margin: 20px auto;
+      display: block;
+    }
+    .header h1 {
+      margin-bottom: 10px;
+      font-size: 24px;
     }
     .building {
       width: 90%;
       max-width: 500px;
       margin: 20px auto;
-      border: 3px solid white;
-      border-radius: 10px;
+      border: 4px solid #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     }
     .links a {
       display: block;
-      background: white;
+      background: #fff;
       color: #007BFF;
-      margin: 10px auto;
-      padding: 12px 20px;
-      text-decoration: none;
+      margin: 12px auto;
+      padding: 14px 0;
       width: 80%;
-      max-width: 300px;
-      border-radius: 25px;
+      max-width: 320px;
+      border-radius: 28px;
+      font-size: 18px;
       font-weight: bold;
+      text-decoration: none;
+      transition: background 0.3s;
     }
-    .footer {
+    .links a:hover {
+      background: #dceeff;
+    }
+    footer {
       margin-top: 30px;
-      font-size: 14px;
       padding: 20px;
-      background: rgba(255,255,255,0.2);
+      font-size: 14px;
+      line-height: 1.6;
+      background: rgba(255,255,255,0.1);
+    }
+    footer a {
+      color: #fff;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
+
   <div class="header">
-    <img src="logo_final.png" alt="Logo">
+    <img src="logo.png" alt="شعار الجمعية">
     <h1>الجمعية التعاونية الاستهلاكية في بابل</h1>
   </div>
-  <img class="building" src="building.jpeg" alt="صورة المبنى">
+
+  <img src="building.jpeg" class="building" alt="صورة المبنى">
 
   <div class="links">
-    <a href="https://www.instagram.com/c.c.s.babil?igsh=MWF2bWhyZXNhaXhsZw==" target="_blank">انستغرام</a>
-    <a href="https://www.facebook.com/share/1C8b888WZ7/?mibextid=wwXIfr" target="_blank">فيسبوك</a>
+    <a href="https://www.instagram.com/c.c.s.babil?igsh=MWF2bWhyZXNhaXhsZw==" target="_blank">📸 حساب الإنستغرام</a>
+    <a href="https://www.facebook.com/share/1C8b888WZ7/?mibextid=wwXIfr" target="_blank">📘 صفحة الفيسبوك</a>
   </div>
 
-  <div class="footer">
-    <p>الحلة - شارع ٦٠ - مجاور مجسر الطهمازية<br>مدخل المجمع السكني</p>
-    <p>07810378747 - 07730595353</p>
-  </div>
+  <footer>
+    📍 حلة شارع ٦٠ مجاور مجسر الطهمازية – مدخل المجمع السكني<br>
+    ☎️ 07810378747 – 07730595353
+  </footer>
+
 </body>
 </html>
