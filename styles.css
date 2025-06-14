@@ -1,61 +1,56 @@
-
 body {
-  margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to bottom, #005c97, #363795);
-  color: white;
-  text-align: center;
-  direction: rtl;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom right, #004AAD, #007AFF);
+    color: white;
+    text-align: center;
 }
 
 .container {
-  max-width: 480px;
-  margin: auto;
-  padding: 20px;
+    padding: 20px;
 }
 
 .logo {
-  width: 120px;
-  margin-top: 20px;
+    max-width: 120px;
+    margin: 20px auto;
+}
+
+.qr-code {
+    max-width: 200px;
+    margin: 10px auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 20px 0;
 }
 
 .building {
-  width: 100%;
-  border-radius: 10px;
-  margin-top: 10px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
 
-.qr {
-  width: 180px;
-  margin: 25px auto;
-  display: block;
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
 }
 
-.title {
-  font-size: 20px;
-  margin: 15px 0;
-  font-weight: bold;
+.btn {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 300px;
+    font-size: 18px;
+    transition: background 0.3s;
 }
 
-.button {
-  display: block;
-  background: linear-gradient(to right, #0f75bc, #1059b1);
-  color: white;
-  text-decoration: none;
-  margin: 10px auto;
-  padding: 14px;
-  border-radius: 8px;
-  width: 90%;
-  font-size: 18px;
-  transition: background 0.3s ease;
-}
-
-.button:hover {
-  background: linear-gradient(to right, #1059b1, #0f75bc);
-}
-
-.footer {
-  margin-top: 30px;
-  font-size: 14px;
-  color: #ddd;
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.3);
 }
